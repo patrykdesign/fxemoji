@@ -1,21 +1,73 @@
 @font-face {
   font-family: "FirefoxEmoji";
-  src: url('FirefoxEmoji.eot');
-  src: url('FirefoxEmoji.eot?#iefix') format('eot'),
-    url('FirefoxEmoji.woff') format('woff'),
-    url('FirefoxEmoji.ttf') format('truetype'),
-    url('FirefoxEmoji.svg#FirefoxEmoji') format('svg');
+  src: url('FirefoxEmoji.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-.icon:before {
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  font-family: "Fira Sans", sans-serif;
   text-align: center;
-  font-family: "FirefoxEmoji";
+  background-color: #f8f8f8;
+}
+
+body > h1 { color: #777; padding: 2rem 0;margin: 0;}
+
+.glyphs {
+  display: flex;
+  max-width: 160rem;
+  flex-wrap: wrap;
+  margin: 0 auto 3rem;
+  padding: 0;
+  list-style: none;
+}
+.glyphs > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1.5rem 1rem 1rem;
+  width: 12rem;
+  text-align: center;
+  border-radius: .5rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.glyphs .icon {
+  display: block;
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  line-height: 10rem;
   font-style: normal;
   font-weight: normal;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "FirefoxEmoji";
+  font-size: 10rem;
+}
+.glyphs .icon:hover {
   cursor: pointer;
+  line-height: 1.333em;
+  font-family: sans-serif !important;
+}
+
+.glyph-name {
+  margin-top: 1rem;
+  max-width: 90%;
+  color: #666;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.glyph-codepoint {
+  margin-top: 1rem;
+  color: #999;
+  font-size: 1.2rem;
 }
 
 .icon-FirefoxEmoji-mahjong:before {
@@ -69,31 +121,46 @@
 .icon-FirefoxEmoji-squaredvs:before {
   content: "\1F19A"
 }
-.icon-FirefoxEmoji-chineseflag:before {
+.icon-FirefoxEmoji-regionalindicatorB:before {
+  content: "\1F1E7"
+}
+.icon-FirefoxEmoji-regionalindicatorC:before {
   content: "\1F1E8"
 }
-.icon-FirefoxEmoji-spanishflag:before {
+.icon-FirefoxEmoji-regionalindicatorE:before {
   content: "\1F1EA"
 }
-.icon-FirefoxEmoji-franceflag:before {
+.icon-FirefoxEmoji-regionalindicatorF:before {
   content: "\1F1EB"
 }
-.icon-FirefoxEmoji-greatbritainflag:before {
+.icon-FirefoxEmoji-regionalindicatorG:before {
   content: "\1F1EC"
 }
-.icon-FirefoxEmoji-italianflag:before {
+.icon-FirefoxEmoji-regionalindicatorI:before {
   content: "\1F1EE"
 }
-.icon-FirefoxEmoji-flagjapan:before {
+.icon-FirefoxEmoji-regionalindicatorJ:before {
   content: "\1F1EF"
 }
-.icon-FirefoxEmoji-flagkorea:before {
+.icon-FirefoxEmoji-regionalindicatorK:before {
   content: "\1F1F0"
 }
-.icon-FirefoxEmoji-russianflag:before {
+.icon-FirefoxEmoji-regionalindicatorN:before {
+  content: "\1F1F3"
+}
+.icon-FirefoxEmoji-regionalindicatorP:before {
+  content: "\1F1F5"
+}
+.icon-FirefoxEmoji-regionalindicatorR:before {
   content: "\1F1F7"
 }
-.icon-FirefoxEmoji-unitedstatesflag:before {
+.icon-FirefoxEmoji-regionalindicatorS:before {
+  content: "\1F1F8"
+}
+.icon-FirefoxEmoji-regionalindicatorT:before {
+  content: "\1F1F9"
+}
+.icon-FirefoxEmoji-regionalindicatorU:before {
   content: "\1F1FA"
 }
 .icon-FirefoxEmoji-squaredkatakanakoko:before {
@@ -1185,7 +1252,7 @@
 .icon-FirefoxEmoji-diamondshapewithdotinside:before {
   content: "\1F4A0"
 }
-.icon-FirefoxEmoji-electriclightbulb:before {
+.icon-FirefoxEmoji-lightbulb:before {
   content: "\1F4A1"
 }
 .icon-FirefoxEmoji-anger:before {
@@ -1404,16 +1471,16 @@
 .icon-FirefoxEmoji-envelopedownarrowabove:before {
   content: "\1F4E9"
 }
-.icon-FirefoxEmoji-closedmailboxloweredflag:before {
+.icon-FirefoxEmoji-closedmailboxlowered:before {
   content: "\1F4EA"
 }
-.icon-FirefoxEmoji-closedmailboxraisedflag:before {
+.icon-FirefoxEmoji-closedmailboxraised:before {
   content: "\1F4EB"
 }
-.icon-FirefoxEmoji-openmailboxraisedflag:before {
+.icon-FirefoxEmoji-openmailboxraised:before {
   content: "\1F4EC"
 }
-.icon-FirefoxEmoji-openmailboxloweredflag:before {
+.icon-FirefoxEmoji-openmailboxlowered:before {
   content: "\1F4ED"
 }
 .icon-FirefoxEmoji-postbox:before {
@@ -2157,9 +2224,6 @@
 .icon-FirefoxEmoji-exclaimationquestionmark:before {
   content: "\2049"
 }
-.icon-FirefoxEmoji-trademarksign:before {
-  content: "\2122"
-}
 .icon-FirefoxEmoji-informationsource:before {
   content: "\2139"
 }
@@ -2343,7 +2407,7 @@
 .icon-FirefoxEmoji-baseball:before {
   content: "\26BE"
 }
-.icon-FirefoxEmoji-snowmannosnow:before {
+.icon-FirefoxEmoji-snowmanwithoutsnow:before {
   content: "\26C4"
 }
 .icon-FirefoxEmoji-sunbehindcloud:before {
@@ -2492,39 +2556,6 @@
 }
 .icon-FirefoxEmoji-circledideographsecret:before {
   content: "\3299"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_k1:before {
-  content: "\5272"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_e1:before {
-  content: "\5408"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_b1:before {
-  content: "\55B6"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_a1:before {
-  content: "\6307"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_h1:before {
-  content: "\6708"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_g1:before {
-  content: "\6709"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_f1:before {
-  content: "\6E80"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_i1:before {
-  content: "\7121"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_j1:before {
-  content: "\7533"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph_c1:before {
-  content: "\7981"
-}
-.icon-FirefoxEmoji-CJKunifiedideograph2_d1:before {
-  content: "\7A7A"
 }
 .icon-FirefoxEmoji-speaker1soundwave:before {
   content: "\F509"

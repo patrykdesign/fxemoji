@@ -4,74 +4,65 @@
   <meta charset="utf-8">
     <title><%= fontName %></title>
     <link href="<%= cssTemplate %>.css" rel="stylesheet">
-    <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        font-size: 10px;
-        font-family: "Open Sans", sans-serif;
-        text-align: center;
-        background-color: #f8f8f8;
-      }
-      body > h1 { color: #777; margin: 1rem 0 }
-      .glyphs {
-        width: 130rem;
-        margin: 0 auto;
-        padding: 0;
-        font-size: 0;
-        list-style: none;
-      }
-      .glyphs > li { display: inline-block;
-        position: relative;
-        margin: .5rem;
-        padding: 1rem 0;
-        width: 12rem;
-        text-align: center;
-        border-radius: .5rem;
-        background-color: #fff;
-      }
-
-      .glyphs .icon:before {
-        position: absolute;
-        top: 0;
-        left: 2rem;
-        width: 100%;
-        height: 100%;
-      }
-      .glyphs .icon {
-        display: block;
-        position: relative;
-        width: 8rem;
-        height: 8rem;
-        font-size: 8rem;
-      }
-      .glyphs .icon:hover:before {
-        font-family: sans-serif !important;
-      }
-      .glyph-name {
-        display: block;
-        margin-top: 1.2rem;
-        color: #666;
-        font-size: 1.2rem;
-      }
-      .glyph-codepoint {
-        display: block;
-        margin-top: 1.2rem;
-        color: #999;
-        font-size: 1.2rem;
-      }
-    </style>
   </head>
   <body>
     <h1><%= fontName %></h1>
-    <ul class="glyphs"><% _.each(glyphs, function(glyph) { if( glyph.codepoint.toString(16).toUpperCase().substring(0, 1) != "E") { %>
+    <ul class="glyphs">
+      <% if ( fontName == 'FirefoxEmoji' || fontName == 'flags' ) { %>
       <li>
-        <i class="icon <%= className %>-<%= glyph.name %>"></i>
+        <i class="icon">&#x1F1E8;&#x1F1F3;</i>
+        <span class="glyph-name">chinaflag</span>
+        <span class="glyph-codepoint">U+1F1E8 U+1F1F3</span>
+      </li>
+      <li>
+        <i class="icon">&#x1F1EB;&#x1F1F7;</i>
+        <span class="glyph-name">franceflag</span>
+        <span class="glyph-codepoint">U+1F1EB U+1F1F7</span>
+      </li>
+      <li>
+        <i class="icon">&#x1F1EC;&#x1F1E7;</i>
+        <span class="glyph-name">greatbritainflag</span>
+        <span class="glyph-codepoint">U+1F1EC U+1F1E7</span>
+      </li>
+      <li>
+        <i class="icon">&#x1F1EE;&#x1F1F9;</i>
+        <span class="glyph-name">italianflag</span>
+        <span class="glyph-codepoint">U+1F1EE U+1F1F9</span>
+      </li>
+      <li>
+        <i class="icon">&#x1F1EF;&#x1F1F5;</i>
+        <span class="glyph-name">japanflag</span>
+        <span class="glyph-codepoint">U+1F1EF U+1F1F5</span>
+      </li>
+      <li>
+        <i class="icon">&#x1F1F0;&#x1F1F7;</i>
+        <span class="glyph-name">koreaflag</span>
+        <span class="glyph-codepoint">U+1F1F0 U+1F1F7</span>
+      </li>
+      <li>
+        <i class="icon">&#x1F1F7;&#x1F1FA;</i>
+        <span class="glyph-name">russianflag</span>
+        <span class="glyph-codepoint">U+1F1F7 U+1F1FA</span>
+      </li>
+      <li>
+        <i class="icon">&#x1F1EA;&#x1f1f8;</i>
+        <span class="glyph-name">spanishflag</span>
+        <span class="glyph-codepoint">U+x1F1EA U+1f1f8</span>
+      </li>
+      <li>
+        <i class="icon">&#x1F1FA;&#x1f1f8;</i>
+        <span class="glyph-name">unitedstatesflag</span>
+        <span class="glyph-codepoint">U+1F1FA U+1f1f8</span>
+      </li>
+    <% } %>
+    <% if ( fontName != 'flags' ) { %>
+      <% _.each(glyphs, function(glyph) { if( glyph.codepoint.toString(16).toUpperCase().substring(0, 1) != "E") { %>
+      <li>
+        <i class="icon"><%= '&#x' + glyph.codepoint.toString(16).toUpperCase() + ';' %></i>
         <span class="glyph-name"><%= glyph.name %></span>
         <span class="glyph-codepoint"><%= glyph.codepoint.toString(16).toUpperCase() %></span>
-      </li><% } }); %>
-    </ul>
+      </li>
+      <% } }); %>
+    <% } %>
   </body>
 </html>

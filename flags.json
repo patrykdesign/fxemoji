@@ -1,0 +1,457 @@
+[
+  {
+    "icon": {
+      "glyph": {
+        "code": "japanflag",
+        "name": "japanflag"
+      },
+      "layers": [
+        {
+          "color": "E8E8E8",
+          "name": "japanflag.layer1",
+          "order": 1
+        },
+        {
+          "color": "FF473E",
+          "name": "japanflag.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "russianflag",
+        "name": "russianflag"
+      },
+      "layers": [
+        {
+          "color": "FF473E",
+          "name": "russianflag.layer1",
+          "order": 1
+        },
+        {
+          "color": "0B67B2",
+          "name": "russianflag.layer2",
+          "order": 2
+        },
+        {
+          "color": "E8E8E8",
+          "name": "russianflag.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1EE",
+        "name": "regionalindicatorI"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1EE.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1F9",
+        "name": "regionalindicatorT"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1F9.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1F8",
+        "name": "regionalindicatorS"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1F8.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1F5",
+        "name": "regionalindicatorP"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1F5.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1F7",
+        "name": "regionalindicatorR"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1F7.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1F0",
+        "name": "regionalindicatorK"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1F0.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1F3",
+        "name": "regionalindicatorN"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1F3.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "greatbritainflag",
+        "name": "greatbritainflag"
+      },
+      "layers": [
+        {
+          "color": "0B67B2",
+          "name": "greatbritainflag.layer1",
+          "order": 1
+        },
+        {
+          "color": "FF473E",
+          "name": "greatbritainflag.layer2",
+          "order": 2
+        },
+        {
+          "color": "E8E8E8",
+          "name": "greatbritainflag.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1EA",
+        "name": "regionalindicatorE"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1EA.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1EB",
+        "name": "regionalindicatorF"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1EB.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1EC",
+        "name": "regionalindicatorG"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1EC.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "spanishflag",
+        "name": "spanishflag"
+      },
+      "layers": [
+        {
+          "color": "FFB636",
+          "name": "spanishflag.layer1",
+          "order": 1
+        },
+        {
+          "color": "E8E8E8",
+          "name": "spanishflag.layer2",
+          "order": 2
+        },
+        {
+          "color": "E8E8E8",
+          "name": "spanishflag.layer4",
+          "order": 4
+        },
+        {
+          "color": "E8E8E8",
+          "name": "spanishflag.layer5",
+          "order": 5
+        },
+        {
+          "color": "FF473E",
+          "name": "spanishflag.layer6",
+          "order": 6
+        },
+        {
+          "color": "E2A042",
+          "name": "spanishflag.layer7",
+          "order": 7
+        },
+        {
+          "color": "575A5B",
+          "name": "spanishflag.layer8",
+          "order": 8
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1EF",
+        "name": "regionalindicatorJ"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1EF.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "italianflag",
+        "name": "italianflag"
+      },
+      "layers": [
+        {
+          "color": "00B89C",
+          "name": "italianflag.layer1",
+          "order": 1
+        },
+        {
+          "color": "FF473E",
+          "name": "italianflag.layer2",
+          "order": 2
+        },
+        {
+          "color": "E8E8E8",
+          "name": "italianflag.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "koreaflag",
+        "name": "koreaflag"
+      },
+      "layers": [
+        {
+          "color": "E8E8E8",
+          "name": "koreaflag.layer1",
+          "order": 1
+        },
+        {
+          "color": "FF473E",
+          "name": "koreaflag.layer2",
+          "order": 2
+        },
+        {
+          "color": "0B67B2",
+          "name": "koreaflag.layer3",
+          "order": 3
+        },
+        {
+          "color": "2B3B47",
+          "name": "koreaflag.layer4",
+          "order": 4
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "unitedstatesflag",
+        "name": "unitedstatesflag"
+      },
+      "layers": [
+        {
+          "color": "E8E8E8",
+          "name": "unitedstatesflag.layer1",
+          "order": 1
+        },
+        {
+          "color": "FF473E",
+          "name": "unitedstatesflag.layer2",
+          "order": 2
+        },
+        {
+          "color": "0B67B2",
+          "name": "unitedstatesflag.layer3",
+          "order": 3
+        },
+        {
+          "color": "FFD469",
+          "name": "unitedstatesflag.layer4",
+          "order": 4
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1E8",
+        "name": "regionalindicatorC"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1E8.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "chineseflag",
+        "name": "chineseflag"
+      },
+      "layers": [
+        {
+          "color": "FF473E",
+          "name": "chineseflag.layer1",
+          "order": 1
+        },
+        {
+          "color": "FFD469",
+          "name": "chineseflag.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "franceflag",
+        "name": "franceflag"
+      },
+      "layers": [
+        {
+          "color": "0B67B2",
+          "name": "franceflag.layer1",
+          "order": 1
+        },
+        {
+          "color": "FF473E",
+          "name": "franceflag.layer2",
+          "order": 2
+        },
+        {
+          "color": "E8E8E8",
+          "name": "franceflag.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1E7",
+        "name": "regionalindicatorB"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1E7.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F1FA",
+        "name": "regionalindicatorU"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F1FA.layer1",
+          "order": 1
+        }
+      ]
+    }
+  }
+]

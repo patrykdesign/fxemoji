@@ -1,21 +1,73 @@
 @font-face {
   font-family: "objects";
-  src: url('objects.eot');
-  src: url('objects.eot?#iefix') format('eot'),
-    url('objects.woff') format('woff'),
-    url('objects.ttf') format('truetype'),
-    url('objects.svg#objects') format('svg');
+  src: url('objects.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-.icon:before {
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  font-family: "Fira Sans", sans-serif;
   text-align: center;
-  font-family: "objects";
+  background-color: #f8f8f8;
+}
+
+body > h1 { color: #777; padding: 2rem 0;margin: 0;}
+
+.glyphs {
+  display: flex;
+  max-width: 160rem;
+  flex-wrap: wrap;
+  margin: 0 auto 3rem;
+  padding: 0;
+  list-style: none;
+}
+.glyphs > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1.5rem 1rem 1rem;
+  width: 12rem;
+  text-align: center;
+  border-radius: .5rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.glyphs .icon {
+  display: block;
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  line-height: 10rem;
   font-style: normal;
   font-weight: normal;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "objects";
+  font-size: 10rem;
+}
+.glyphs .icon:hover {
   cursor: pointer;
+  line-height: 1.333em;
+  font-family: sans-serif !important;
+}
+
+.glyph-name {
+  margin-top: 1rem;
+  max-width: 90%;
+  color: #666;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.glyph-codepoint {
+  margin-top: 1rem;
+  color: #999;
+  font-size: 1.2rem;
 }
 
 .icon-objects-mahjong:before {
@@ -116,9 +168,6 @@
 }
 .icon-objects-oden:before {
   content: "\1F362"
-}
-.icon-objects-sushi:before {
-  content: "\1F363"
 }
 .icon-objects-friedshrimp:before {
   content: "\1F364"
@@ -342,6 +391,9 @@
 .icon-objects-swimming:before {
   content: "\1F3CA"
 }
+.icon-objects-tie:before {
+  content: "\1F454"
+}
 .icon-objects-ghost:before {
   content: "\1F47B"
 }
@@ -357,7 +409,7 @@
 .icon-objects-heartribbon:before {
   content: "\1F49D"
 }
-.icon-objects-electriclightbulb:before {
+.icon-objects-lightbulb:before {
   content: "\1F4A1"
 }
 .icon-objects-bomb:before {
@@ -519,16 +571,16 @@
 .icon-objects-envelopedownarrowabove:before {
   content: "\1F4E9"
 }
-.icon-objects-closedmailboxloweredflag:before {
+.icon-objects-closedmailboxlowered:before {
   content: "\1F4EA"
 }
-.icon-objects-closedmailboxraisedflag:before {
+.icon-objects-closedmailboxraised:before {
   content: "\1F4EB"
 }
-.icon-objects-openmailboxraisedflag:before {
+.icon-objects-openmailboxraised:before {
   content: "\1F4EC"
 }
-.icon-objects-openmailboxloweredflag:before {
+.icon-objects-openmailboxlowered:before {
   content: "\1F4ED"
 }
 .icon-objects-postbox:before {

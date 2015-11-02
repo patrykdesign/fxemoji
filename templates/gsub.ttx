@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="2.3">
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <FeatureIndex index="0" value="0"/>
+          </DefaultLangSys>
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <FeatureRecord index="0">
+        <FeatureTag value="rlig"/>
+        <Feature>
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <Lookup index="0">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="regionalindicatorC">
+            <Ligature components="regionalindicatorN" glyph="chineseflag"/>
+          </LigatureSet>
+          <LigatureSet glyph="regionalindicatorE">
+            <Ligature components="regionalindicatorS" glyph="spanishflag"/>
+          </LigatureSet>
+          <LigatureSet glyph="regionalindicatorF">
+            <Ligature components="regionalindicatorR" glyph="franceflag"/>
+          </LigatureSet>
+          <LigatureSet glyph="regionalindicatorG">
+            <Ligature components="regionalindicatorB" glyph="greatbritainflag"/>
+          </LigatureSet>
+          <LigatureSet glyph="regionalindicatorI">
+            <Ligature components="regionalindicatorT" glyph="italianflag"/>
+          </LigatureSet>
+          <LigatureSet glyph="regionalindicatorJ">
+            <Ligature components="regionalindicatorP" glyph="japanflag"/>
+          </LigatureSet>
+          <LigatureSet glyph="regionalindicatorK">
+            <Ligature components="regionalindicatorR" glyph="koreaflag"/>
+          </LigatureSet>
+          <LigatureSet glyph="regionalindicatorR">
+            <Ligature components="regionalindicatorU" glyph="russianflag"/>
+          </LigatureSet>
+          <LigatureSet glyph="regionalindicatorU">
+            <Ligature components="regionalindicatorS" glyph="unitedstatesflag"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+</ttFont>
