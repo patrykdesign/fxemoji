@@ -992,6 +992,81 @@
   {
     "icon": {
       "glyph": {
+        "code": "u1F549",
+        "name": "omsymbol"
+      },
+      "layers": [
+        {
+          "color": "464A4C",
+          "name": "u1F549.layer1",
+          "order": 1
+        },
+        {
+          "color": "464A4C",
+          "name": "u1F549.layer2",
+          "order": 2
+        },
+        {
+          "color": "464A4C",
+          "name": "u1F549.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5E4",
+        "name": "threeraysabove"
+      },
+      "layers": [
+        {
+          "color": "16AFE4",
+          "name": "u1F5E4.layer1",
+          "order": 1
+        },
+        {
+          "color": "16AFE4",
+          "name": "u1F5E4.layer2",
+          "order": 2
+        },
+        {
+          "color": "16AFE4",
+          "name": "u1F5E4.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5E5",
+        "name": "threeraysbelow"
+      },
+      "layers": [
+        {
+          "color": "16AFE4",
+          "name": "u1F5E5.layer1",
+          "order": 1
+        },
+        {
+          "color": "16AFE4",
+          "name": "u1F5E5.layer2",
+          "order": 2
+        },
+        {
+          "color": "16AFE4",
+          "name": "u1F5E5.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
         "code": "u1F251",
         "name": "circledideographaccept"
       },
@@ -1085,6 +1160,21 @@
           "color": "FFFFFF",
           "name": "u1F19A.layer4",
           "order": 4
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5E3",
+        "name": "speakingheadinsilhouette"
+      },
+      "layers": [
+        {
+          "color": "48677E",
+          "name": "u1F5E3.layer1",
+          "order": 1
         }
       ]
     }
@@ -1262,6 +1352,31 @@
   {
     "icon": {
       "glyph": {
+        "code": "u1F56A",
+        "name": "rightspeaker3soundwaves"
+      },
+      "layers": [
+        {
+          "color": "ADB8BC",
+          "name": "u1F56A.layer1",
+          "order": 1
+        },
+        {
+          "color": "597B91",
+          "name": "u1F56A.layer2",
+          "order": 2
+        },
+        {
+          "color": "7D9DAF",
+          "name": "u1F56A.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
         "code": "u2B05",
         "name": "leftwardsblackarrow"
       },
@@ -1367,29 +1482,109 @@
   {
     "icon": {
       "glyph": {
-        "code": "u1F23A",
-        "name": "CJKunifiedideograph_b"
+        "code": "u1F5D7",
+        "name": "overlap"
       },
       "layers": [
         {
-          "color": "FFB636",
-          "name": "u1F23A.layer1",
+          "color": "597B91",
+          "name": "u1F5D7.layer1",
           "order": 1
         },
         {
-          "color": "ED9B43",
-          "name": "u1F23A.layer2",
+          "color": "E0E0E0",
+          "name": "u1F5D7.layer2",
           "order": 2
         },
         {
-          "color": "FFFFFF",
-          "name": "u1F23A.layer3",
+          "color": "597B91",
+          "name": "u1F5D7.layer3",
           "order": 3
         },
         {
-          "color": "FFFFFF",
-          "name": "u1F23A.layer4",
+          "color": "E0E0E0",
+          "name": "u1F5D7.layer4",
           "order": 4
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5D6",
+        "name": "maximize"
+      },
+      "layers": [
+        {
+          "color": "597B91",
+          "name": "u1F5D6.layer1",
+          "order": 1
+        },
+        {
+          "color": "E0E0E0",
+          "name": "u1F5D6.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5D5",
+        "name": "minimize"
+      },
+      "layers": [
+        {
+          "color": "597B91",
+          "name": "u1F5D5.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5D4",
+        "name": "window"
+      },
+      "layers": [
+        {
+          "color": "597B91",
+          "name": "u1F5D4.layer1",
+          "order": 1
+        },
+        {
+          "color": "D32A2A",
+          "name": "u1F5D4.layer2",
+          "order": 2
+        },
+        {
+          "color": "132028",
+          "name": "u1F5D4.layer3",
+          "order": 3
+        },
+        {
+          "color": "59CAFC",
+          "name": "u1F5D4.layer4",
+          "order": 4
+        },
+        {
+          "color": "FFFFFF",
+          "name": "u1F5D4.layer5",
+          "order": 5
+        },
+        {
+          "color": "CFD3D3",
+          "name": "u1F5D4.layer6",
+          "order": 6
+        },
+        {
+          "color": "E0E0E0",
+          "name": "u1F5D4.layer7",
+          "order": 7
         }
       ]
     }
@@ -1412,14 +1607,34 @@
   {
     "icon": {
       "glyph": {
-        "code": "u2660",
-        "name": "blackspadesuit"
+        "code": "u1F5D9",
+        "name": "cancellationx"
       },
       "layers": [
         {
           "color": "2B3B47",
-          "name": "u2660.layer1",
+          "name": "u1F5D9.layer1",
           "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5D8",
+        "name": "clockwiseleftrightarrows"
+      },
+      "layers": [
+        {
+          "color": "2B3B47",
+          "name": "u1F5D8.layer1",
+          "order": 1
+        },
+        {
+          "color": "2B3B47",
+          "name": "u1F5D8.layer2",
+          "order": 2
         }
       ]
     }
@@ -1465,6 +1680,26 @@
           "color": "FFFFFF",
           "name": "u2652.layer4",
           "order": 4
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u2049",
+        "name": "exclaimationquestionmark"
+      },
+      "layers": [
+        {
+          "color": "2B3B47",
+          "name": "u2049.layer1",
+          "order": 1
+        },
+        {
+          "color": "2B3B47",
+          "name": "u2049.layer2",
+          "order": 2
         }
       ]
     }
@@ -1565,6 +1800,96 @@
           "color": "FFFFFF",
           "name": "u1F171.layer3",
           "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u2796",
+        "name": "heavyminussign"
+      },
+      "layers": [
+        {
+          "color": "2B3B47",
+          "name": "u2796.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u2797",
+        "name": "heavydivisionsign"
+      },
+      "layers": [
+        {
+          "color": "2B3B47",
+          "name": "u2797.layer1",
+          "order": 1
+        },
+        {
+          "color": "2B3B47",
+          "name": "u2797.layer2",
+          "order": 2
+        },
+        {
+          "color": "2B3B47",
+          "name": "u2797.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F572",
+        "name": "nopiracy"
+      },
+      "layers": [
+        {
+          "color": "EDC0A2",
+          "name": "u1F572.layer1",
+          "order": 1
+        },
+        {
+          "color": "2B3B47",
+          "name": "u1F572.layer2",
+          "order": 2
+        },
+        {
+          "color": "68442A",
+          "name": "u1F572.layer3",
+          "order": 3
+        },
+        {
+          "color": "D19871",
+          "name": "u1F572.layer4",
+          "order": 4
+        },
+        {
+          "color": "332A23",
+          "name": "u1F572.layer5",
+          "order": 5
+        },
+        {
+          "color": "2B3B47",
+          "name": "u1F572.layer6",
+          "order": 6
+        },
+        {
+          "color": "FFFFFF",
+          "name": "u1F572.layer7",
+          "order": 7
+        },
+        {
+          "color": "FF5850",
+          "name": "u1F572.layer8",
+          "order": 8
         }
       ]
     }
@@ -1687,13 +2012,13 @@
   {
     "icon": {
       "glyph": {
-        "code": "u2796",
-        "name": "heavyminussign"
+        "code": "u1F57B",
+        "name": "lefthandphone"
       },
       "layers": [
         {
-          "color": "2B3B47",
-          "name": "u2796.layer1",
+          "color": "132028",
+          "name": "u1F57B.layer1",
           "order": 1
         }
       ]
@@ -1702,24 +2027,19 @@
   {
     "icon": {
       "glyph": {
-        "code": "u2797",
-        "name": "heavydivisionsign"
+        "code": "u1F57C",
+        "name": "phonewithpage"
       },
       "layers": [
         {
-          "color": "2B3B47",
-          "name": "u2797.layer1",
+          "color": "132028",
+          "name": "u1F57C.layer1",
           "order": 1
         },
         {
-          "color": "2B3B47",
-          "name": "u2797.layer2",
+          "color": "BCBCBC",
+          "name": "u1F57C.layer2",
           "order": 2
-        },
-        {
-          "color": "2B3B47",
-          "name": "u2797.layer3",
-          "order": 3
         }
       ]
     }
@@ -1760,6 +2080,21 @@
           "color": "2B3B47",
           "name": "u1F6B8.layer3",
           "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F57D",
+        "name": "righthandphone"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u1F57D.layer1",
+          "order": 1
         }
       ]
     }
@@ -1972,34 +2307,19 @@
   {
     "icon": {
       "glyph": {
-        "code": "u1F237",
-        "name": "CJKunifiedideograph_h"
+        "code": "u1F5DA",
+        "name": "increasefontsize"
       },
       "layers": [
         {
-          "color": "FFB636",
-          "name": "u1F237.layer1",
+          "color": "597B91",
+          "name": "u1F5DA.layer1",
           "order": 1
         },
         {
-          "color": "ED9B43",
-          "name": "u1F237.layer2",
+          "color": "2B3B47",
+          "name": "u1F5DA.layer2",
           "order": 2
-        },
-        {
-          "color": "FFFFFF",
-          "name": "u1F237.layer3",
-          "order": 3
-        },
-        {
-          "color": "FFFFFF",
-          "name": "u1F237.layer4",
-          "order": 4
-        },
-        {
-          "color": "FFFFFF",
-          "name": "u1F237.layer5",
-          "order": 5
         }
       ]
     }
@@ -2077,24 +2397,19 @@
   {
     "icon": {
       "glyph": {
-        "code": "u1F232",
-        "name": "CJKunifiedideograph_c"
+        "code": "u1F5DD",
+        "name": "oldkey"
       },
       "layers": [
         {
-          "color": "FF473E",
-          "name": "u1F232.layer1",
+          "color": "FFC145",
+          "name": "u1F5DD.layer1",
           "order": 1
         },
         {
-          "color": "D32A2A",
-          "name": "u1F232.layer2",
-          "order": 2
-        },
-        {
           "color": "FFFFFF",
-          "name": "u1F232.layer3",
-          "order": 3
+          "name": "u1F5DD.layer2",
+          "order": 2
         }
       ]
     }
@@ -2185,6 +2500,51 @@
           "color": "FFFFFF",
           "name": "u2650.layer3",
           "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F569",
+        "name": "speakerwith1soundwave"
+      },
+      "layers": [
+        {
+          "color": "ADB8BC",
+          "name": "u1F569.layer1",
+          "order": 1
+        },
+        {
+          "color": "597B91",
+          "name": "u1F569.layer2",
+          "order": 2
+        },
+        {
+          "color": "7D9DAF",
+          "name": "u1F569.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F568",
+        "name": "rightspeaker"
+      },
+      "layers": [
+        {
+          "color": "ADB8BC",
+          "name": "u1F568.layer1",
+          "order": 1
+        },
+        {
+          "color": "597B91",
+          "name": "u1F568.layer2",
+          "order": 2
         }
       ]
     }
@@ -2952,14 +3312,59 @@
   {
     "icon": {
       "glyph": {
-        "code": "u25AA",
-        "name": "blacksmallsquare"
+        "code": "u1F5DC",
+        "name": "compression"
       },
       "layers": [
         {
-          "color": "132028",
-          "name": "u25AA.layer1",
+          "color": "AF773F",
+          "name": "u1F5DC.layer1",
           "order": 1
+        },
+        {
+          "color": "332A23",
+          "name": "u1F5DC.layer2",
+          "order": 2
+        },
+        {
+          "color": "E5AA6E",
+          "name": "u1F5DC.layer3",
+          "order": 3
+        },
+        {
+          "color": "1C4C5A",
+          "name": "u1F5DC.layer4",
+          "order": 4
+        },
+        {
+          "color": "ADB8BC",
+          "name": "u1F5DC.layer5",
+          "order": 5
+        },
+        {
+          "color": "ADB8BC",
+          "name": "u1F5DC.layer6",
+          "order": 6
+        },
+        {
+          "color": "819096",
+          "name": "u1F5DC.layer7",
+          "order": 7
+        },
+        {
+          "color": "ADB8BC",
+          "name": "u1F5DC.layer8",
+          "order": 8
+        },
+        {
+          "color": "C5CFD1",
+          "name": "u1F5DC.layer9",
+          "order": 9
+        },
+        {
+          "color": "1C4C5A",
+          "name": "u1F5DC.layer10",
+          "order": 10
         }
       ]
     }
@@ -2982,14 +3387,19 @@
   {
     "icon": {
       "glyph": {
-        "code": "u2716",
-        "name": "heavymultiplicationsymbol"
+        "code": "u1F5DB",
+        "name": "decreasefontsize"
       },
       "layers": [
         {
-          "color": "2B3B47",
-          "name": "u2716.layer1",
+          "color": "597B91",
+          "name": "u1F5DB.layer1",
           "order": 1
+        },
+        {
+          "color": "2B3B47",
+          "name": "u1F5DB.layer2",
+          "order": 2
         }
       ]
     }
@@ -3022,24 +3432,34 @@
   {
     "icon": {
       "glyph": {
-        "code": "u23EC",
-        "name": "blackdownpointingdoublearrow"
+        "code": "u1F237",
+        "name": "CJKunifiedideograph_h"
       },
       "layers": [
         {
-          "color": "597B91",
-          "name": "u23EC.layer1",
+          "color": "FFB636",
+          "name": "u1F237.layer1",
           "order": 1
         },
         {
-          "color": "2B5770",
-          "name": "u23EC.layer2",
+          "color": "ED9B43",
+          "name": "u1F237.layer2",
           "order": 2
         },
         {
-          "color": "F9F9F7",
-          "name": "u23EC.layer3",
+          "color": "FFFFFF",
+          "name": "u1F237.layer3",
           "order": 3
+        },
+        {
+          "color": "FFFFFF",
+          "name": "u1F237.layer4",
+          "order": 4
+        },
+        {
+          "color": "FFFFFF",
+          "name": "u1F237.layer5",
+          "order": 5
         }
       ]
     }
@@ -3380,6 +3800,46 @@
           "color": "FFFFFF",
           "name": "u24C2.layer3",
           "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F545",
+        "name": "markschaptersymbol"
+      },
+      "layers": [
+        {
+          "color": "597B91",
+          "name": "u1F545.layer1",
+          "order": 1
+        },
+        {
+          "color": "597B91",
+          "name": "u1F545.layer2",
+          "order": 2
+        },
+        {
+          "color": "597B91",
+          "name": "u1F545.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F544",
+        "name": "notchedrightsemi3dot"
+      },
+      "layers": [
+        {
+          "color": "597B91",
+          "name": "u1F544.layer1",
+          "order": 1
         }
       ]
     }
@@ -3767,6 +4227,36 @@
   {
     "icon": {
       "glyph": {
+        "code": "u1F23A",
+        "name": "CJKunifiedideograph_b"
+      },
+      "layers": [
+        {
+          "color": "FFB636",
+          "name": "u1F23A.layer1",
+          "order": 1
+        },
+        {
+          "color": "ED9B43",
+          "name": "u1F23A.layer2",
+          "order": 2
+        },
+        {
+          "color": "FFFFFF",
+          "name": "u1F23A.layer3",
+          "order": 3
+        },
+        {
+          "color": "FFFFFF",
+          "name": "u1F23A.layer4",
+          "order": 4
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
         "code": "u23F0",
         "name": "alarmclock"
       },
@@ -3842,6 +4332,21 @@
   {
     "icon": {
       "glyph": {
+        "code": "u25AA",
+        "name": "blacksmallsquare"
+      },
+      "layers": [
+        {
+          "color": "132028",
+          "name": "u25AA.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
         "code": "u2198",
         "name": "southeastarrow"
       },
@@ -3885,6 +4390,36 @@
           "color": "FFFFFF",
           "name": "u2748.layer3",
           "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u2716",
+        "name": "heavymultiplicationsymbol"
+      },
+      "layers": [
+        {
+          "color": "2B3B47",
+          "name": "u2716.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u2660",
+        "name": "blackspadesuit"
+      },
+      "layers": [
+        {
+          "color": "2B3B47",
+          "name": "u2660.layer1",
+          "order": 1
         }
       ]
     }
@@ -4222,6 +4757,26 @@
   {
     "icon": {
       "glyph": {
+        "code": "u1F53F",
+        "name": "upperrightwhitecircle"
+      },
+      "layers": [
+        {
+          "color": "BCBCBC",
+          "name": "u1F53F.layer1",
+          "order": 1
+        },
+        {
+          "color": "E0E0E0",
+          "name": "u1F53F.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
         "code": "u1F53D",
         "name": "downpointingsmallredtrisngle"
       },
@@ -4240,6 +4795,26 @@
           "color": "F9F9F7",
           "name": "u1F53D.layer3",
           "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F53E",
+        "name": "lowerrightwhitecircle"
+      },
+      "layers": [
+        {
+          "color": "BCBCBC",
+          "name": "u1F53E.layer1",
+          "order": 1
+        },
+        {
+          "color": "E0E0E0",
+          "name": "u1F53E.layer2",
+          "order": 2
         }
       ]
     }
@@ -4332,19 +4907,24 @@
   {
     "icon": {
       "glyph": {
-        "code": "u2049",
-        "name": "exclaimationquestionmark"
+        "code": "u23EC",
+        "name": "blackdownpointingdoublearrow"
       },
       "layers": [
         {
-          "color": "2B3B47",
-          "name": "u2049.layer1",
+          "color": "597B91",
+          "name": "u23EC.layer1",
           "order": 1
         },
         {
-          "color": "2B3B47",
-          "name": "u2049.layer2",
+          "color": "2B5770",
+          "name": "u23EC.layer2",
           "order": 2
+        },
+        {
+          "color": "F9F9F7",
+          "name": "u23EC.layer3",
+          "order": 3
         }
       ]
     }
@@ -4587,6 +5167,31 @@
   {
     "icon": {
       "glyph": {
+        "code": "u1F5E6",
+        "name": "threeraysleft"
+      },
+      "layers": [
+        {
+          "color": "16AFE4",
+          "name": "u1F5E6.layer1",
+          "order": 1
+        },
+        {
+          "color": "16AFE4",
+          "name": "u1F5E6.layer2",
+          "order": 2
+        },
+        {
+          "color": "16AFE4",
+          "name": "u1F5E6.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
         "code": "u1F524",
         "name": "inputsymbolforlatinletters"
       },
@@ -4615,6 +5220,31 @@
           "color": "F9F9F7",
           "name": "u1F524.layer5",
           "order": 5
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5E7",
+        "name": "threeraysright"
+      },
+      "layers": [
+        {
+          "color": "16AFE4",
+          "name": "u1F5E7.layer1",
+          "order": 1
+        },
+        {
+          "color": "16AFE4",
+          "name": "u1F5E7.layer2",
+          "order": 2
+        },
+        {
+          "color": "16AFE4",
+          "name": "u1F5E7.layer3",
+          "order": 3
         }
       ]
     }
@@ -4804,6 +5434,31 @@
         {
           "color": "FFFFFF",
           "name": "u1F49F.layer3",
+          "order": 3
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F232",
+        "name": "CJKunifiedideograph_c"
+      },
+      "layers": [
+        {
+          "color": "FF473E",
+          "name": "u1F232.layer1",
+          "order": 1
+        },
+        {
+          "color": "D32A2A",
+          "name": "u1F232.layer2",
+          "order": 2
+        },
+        {
+          "color": "FFFFFF",
+          "name": "u1F232.layer3",
           "order": 3
         }
       ]

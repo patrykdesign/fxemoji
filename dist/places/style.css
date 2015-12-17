@@ -109,6 +109,51 @@ body > h1 { color: #777; padding: 2rem 0;margin: 0;}
 .icon-places-slotmachine:before {
   content: "\1F3B0"
 }
+.icon-places-weightlifter:before {
+  content: "\1F3CB"
+}
+.icon-places-golfer:before {
+  content: "\1F3CC"
+}
+.icon-places-motorcycle:before {
+  content: "\1F3CD"
+}
+.icon-places-racecar:before {
+  content: "\1F3CE"
+}
+.icon-places-snowmountains:before {
+  content: "\1F3D4"
+}
+.icon-places-camping:before {
+  content: "\1F3D5"
+}
+.icon-places-beachumbrella:before {
+  content: "\1F3D6"
+}
+.icon-places-construction:before {
+  content: "\1F3D7"
+}
+.icon-places-housebuildings:before {
+  content: "\1F3D8"
+}
+.icon-places-cityscape:before {
+  content: "\1F3D9"
+}
+.icon-places-classicalbuilding:before {
+  content: "\1F3DB"
+}
+.icon-places-desert:before {
+  content: "\1F3DC"
+}
+.icon-places-desertisland:before {
+  content: "\1F3DD"
+}
+.icon-places-nationalpark:before {
+  content: "\1F3DE"
+}
+.icon-places-stadium:before {
+  content: "\1F3DF"
+}
 .icon-places-housebuilding:before {
   content: "\1F3E0"
 }

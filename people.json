@@ -567,29 +567,19 @@
   {
     "icon": {
       "glyph": {
-        "code": "u1F613",
-        "name": "sweat"
+        "code": "u1F598",
+        "name": "sidewaysleftpointingindex"
       },
       "layers": [
         {
-          "color": "FFD469",
-          "name": "u1F613.layer1",
+          "color": "CCCCCC",
+          "name": "u1F598.layer1",
           "order": 1
         },
         {
-          "color": "FFB636",
-          "name": "u1F613.layer2",
+          "color": "E0E0E0",
+          "name": "u1F598.layer2",
           "order": 2
-        },
-        {
-          "color": "2B3B47",
-          "name": "u1F613.layer3",
-          "order": 3
-        },
-        {
-          "color": "00BEEA",
-          "name": "u1F613.layer4",
-          "order": 4
         }
       ]
     }
@@ -802,6 +792,46 @@
   {
     "icon": {
       "glyph": {
+        "code": "u1F590",
+        "name": "raisedhandsfingerssplayed"
+      },
+      "layers": [
+        {
+          "color": "FFD3B6",
+          "name": "u1F590.layer1",
+          "order": 1
+        },
+        {
+          "color": "F2C7AA",
+          "name": "u1F590.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F591",
+        "name": "reverseraisedhandsfingerssplayed"
+      },
+      "layers": [
+        {
+          "color": "FFD3B6",
+          "name": "u1F591.layer1",
+          "order": 1
+        },
+        {
+          "color": "F2C7AA",
+          "name": "u1F591.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
         "code": "u1F619",
         "name": "kisseyes"
       },
@@ -885,6 +915,41 @@
           "color": "FF473E",
           "name": "u1F618.layer8",
           "order": 8
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F594",
+        "name": "reversevictoryhand"
+      },
+      "layers": [
+        {
+          "color": "FFD3B6",
+          "name": "u1F594.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F596",
+        "name": "raisedhandpartfingers"
+      },
+      "layers": [
+        {
+          "color": "FFD3B6",
+          "name": "u1F596.layer1",
+          "order": 1
+        },
+        {
+          "color": "F2C7AA",
+          "name": "u1F596.layer2",
+          "order": 2
         }
       ]
     }
@@ -1580,6 +1645,116 @@
           "color": "C44747",
           "name": "u1F61D.layer6",
           "order": 6
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F59A",
+        "name": "sidewaysblackleftpointingindex"
+      },
+      "layers": [
+        {
+          "color": "000000",
+          "name": "u1F59A.layer1",
+          "order": 1
+        },
+        {
+          "color": "464A4C",
+          "name": "u1F59A.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F59B",
+        "name": "sidewaysblackrightpointingindex"
+      },
+      "layers": [
+        {
+          "color": "000000",
+          "name": "u1F59B.layer1",
+          "order": 1
+        },
+        {
+          "color": "464A4C",
+          "name": "u1F59B.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F59C",
+        "name": "blackleftpointingbackhand"
+      },
+      "layers": [
+        {
+          "color": "464A4C",
+          "name": "u1F59C.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F59D",
+        "name": "blackrightpointingbackhand"
+      },
+      "layers": [
+        {
+          "color": "464A4C",
+          "name": "u1F59D.layer1",
+          "order": 1
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F59E",
+        "name": "sidewaysuppointingindex"
+      },
+      "layers": [
+        {
+          "color": "CCCCCC",
+          "name": "u1F59E.layer1",
+          "order": 1
+        },
+        {
+          "color": "E0E0E0",
+          "name": "u1F59E.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F59F",
+        "name": "sidewaysdownpointingindex"
+      },
+      "layers": [
+        {
+          "color": "CCCCCC",
+          "name": "u1F59F.layer1",
+          "order": 1
+        },
+        {
+          "color": "E0E0E0",
+          "name": "u1F59F.layer2",
+          "order": 2
         }
       ]
     }
@@ -2944,6 +3119,36 @@
         {
           "color": "597B91",
           "name": "u1F302.layer4",
+          "order": 4
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F613",
+        "name": "sweat"
+      },
+      "layers": [
+        {
+          "color": "FFD469",
+          "name": "u1F613.layer1",
+          "order": 1
+        },
+        {
+          "color": "FFB636",
+          "name": "u1F613.layer2",
+          "order": 2
+        },
+        {
+          "color": "2B3B47",
+          "name": "u1F613.layer3",
+          "order": 3
+        },
+        {
+          "color": "00BEEA",
+          "name": "u1F613.layer4",
           "order": 4
         }
       ]
@@ -4659,6 +4864,46 @@
         {
           "color": "FEE9B7",
           "name": "u1F49B.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5A0",
+        "name": "sidewaysblackuppointingindex"
+      },
+      "layers": [
+        {
+          "color": "000000",
+          "name": "u1F5A0.layer1",
+          "order": 1
+        },
+        {
+          "color": "464A4C",
+          "name": "u1F5A0.layer2",
+          "order": 2
+        }
+      ]
+    }
+  },
+  {
+    "icon": {
+      "glyph": {
+        "code": "u1F5A1",
+        "name": "sidewaysblackdownpointingindex"
+      },
+      "layers": [
+        {
+          "color": "000000",
+          "name": "u1F5A1.layer1",
+          "order": 1
+        },
+        {
+          "color": "464A4C",
+          "name": "u1F5A1.layer2",
           "order": 2
         }
       ]

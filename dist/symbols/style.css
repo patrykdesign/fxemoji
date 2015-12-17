@@ -298,6 +298,21 @@ body > h1 { color: #777; padding: 2rem 0;margin: 0;}
 .icon-symbols-downpointingsmallredtrisngle:before {
   content: "\1F53D"
 }
+.icon-symbols-lowerrightwhitecircle:before {
+  content: "\1F53E"
+}
+.icon-symbols-upperrightwhitecircle:before {
+  content: "\1F53F"
+}
+.icon-symbols-notchedrightsemi3dot:before {
+  content: "\1F544"
+}
+.icon-symbols-markschaptersymbol:before {
+  content: "\1F545"
+}
+.icon-symbols-omsymbol:before {
+  content: "\1F549"
+}
 .icon-symbols-clock1oclock:before {
   content: "\1F550"
 }
@@ -339,6 +354,72 @@ body > h1 { color: #777; padding: 2rem 0;margin: 0;}
 }
 .icon-symbols-clock12thirty:before {
   content: "\1F567"
+}
+.icon-symbols-rightspeaker:before {
+  content: "\1F568"
+}
+.icon-symbols-speakerwith1soundwave:before {
+  content: "\1F569"
+}
+.icon-symbols-rightspeaker3soundwaves:before {
+  content: "\1F56A"
+}
+.icon-symbols-nopiracy:before {
+  content: "\1F572"
+}
+.icon-symbols-lefthandphone:before {
+  content: "\1F57B"
+}
+.icon-symbols-phonewithpage:before {
+  content: "\1F57C"
+}
+.icon-symbols-righthandphone:before {
+  content: "\1F57D"
+}
+.icon-symbols-window:before {
+  content: "\1F5D4"
+}
+.icon-symbols-minimize:before {
+  content: "\1F5D5"
+}
+.icon-symbols-maximize:before {
+  content: "\1F5D6"
+}
+.icon-symbols-overlap:before {
+  content: "\1F5D7"
+}
+.icon-symbols-clockwiseleftrightarrows:before {
+  content: "\1F5D8"
+}
+.icon-symbols-cancellationx:before {
+  content: "\1F5D9"
+}
+.icon-symbols-increasefontsize:before {
+  content: "\1F5DA"
+}
+.icon-symbols-decreasefontsize:before {
+  content: "\1F5DB"
+}
+.icon-symbols-compression:before {
+  content: "\1F5DC"
+}
+.icon-symbols-oldkey:before {
+  content: "\1F5DD"
+}
+.icon-symbols-speakingheadinsilhouette:before {
+  content: "\1F5E3"
+}
+.icon-symbols-threeraysabove:before {
+  content: "\1F5E4"
+}
+.icon-symbols-threeraysbelow:before {
+  content: "\1F5E5"
+}
+.icon-symbols-threeraysleft:before {
+  content: "\1F5E6"
+}
+.icon-symbols-threeraysright:before {
+  content: "\1F5E7"
 }
 .icon-symbols-noentrysign:before {
   content: "\1F6AB"

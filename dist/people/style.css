@@ -388,6 +388,45 @@ body > h1 { color: #777; padding: 2rem 0;margin: 0;}
 .icon-people-briefcase:before {
   content: "\1F4BC"
 }
+.icon-people-raisedhandsfingerssplayed:before {
+  content: "\1F590"
+}
+.icon-people-reverseraisedhandsfingerssplayed:before {
+  content: "\1F591"
+}
+.icon-people-reversevictoryhand:before {
+  content: "\1F594"
+}
+.icon-people-raisedhandpartfingers:before {
+  content: "\1F596"
+}
+.icon-people-sidewaysleftpointingindex:before {
+  content: "\1F598"
+}
+.icon-people-sidewaysblackleftpointingindex:before {
+  content: "\1F59A"
+}
+.icon-people-sidewaysblackrightpointingindex:before {
+  content: "\1F59B"
+}
+.icon-people-blackleftpointingbackhand:before {
+  content: "\1F59C"
+}
+.icon-people-blackrightpointingbackhand:before {
+  content: "\1F59D"
+}
+.icon-people-sidewaysuppointingindex:before {
+  content: "\1F59E"
+}
+.icon-people-sidewaysdownpointingindex:before {
+  content: "\1F59F"
+}
+.icon-people-sidewaysblackuppointingindex:before {
+  content: "\1F5A0"
+}
+.icon-people-sidewaysblackdownpointingindex:before {
+  content: "\1F5A1"
+}
 .icon-people-grin:before {
   content: "\1F600"
 }
